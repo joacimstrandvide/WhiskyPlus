@@ -7,18 +7,18 @@
         type="email"
         class="form-control"
         required
-        placeholder="Skriv din mail"
+        placeholder="Din Email"
       />
     </div>
     <div class="form-group">
       <label>Namn</label>
-      <input type="text" class="form-control" placeholder="Skriv ditt namn" />
+      <input type="text" class="form-control" placeholder="Ditt namn" />
     </div>
     <div class="form-check">
       <input v-model="checked" type="checkbox" class="form-check-input" />
       <label class="form-check-label">I Agree to <a href="#">terms and conditions</a></label>
-    </div>
-    <button type="submit" @click="onSubmit()" class="btn btn-secondary">
+    </div><br />
+    <button type="submit" @click="onSubmit()" class="btn btn-success">
       Prenumerera
     </button>
   </form>

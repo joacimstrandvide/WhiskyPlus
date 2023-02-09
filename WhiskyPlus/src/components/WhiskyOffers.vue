@@ -1,5 +1,4 @@
 <template>
-  <!-- Bootstrap card -->
   <div class="col">
     <div class="card" style="width: 16rem">
       <img :src="`${whisky.image}`" class="card-img-top" alt="Whisky" />
@@ -9,11 +8,9 @@
           {{ whisky.description }}
         </p>
         <p class="card-text price">${{ whisky.price }}</p>
+        <h5 class="sale" v-show="sale">REA!</h5>
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-          <h5 class="sale" v-show="sale">REA!</h5>
-        </li>
         <li class="list-group-item">
           <h5 class="inStock" v-if="inStock">Finns I lager!</h5>
           <h5 class="noStock" v-else>Ej I Lager</h5>
@@ -58,20 +55,21 @@ export default {
 .sale {
   color: #fff;
   background-color: green;
-  padding: .3rem;
+  padding: 0.3rem;
   margin: auto;
   width: 6rem;
-  border-radius: .6rem;
+  border-radius: 1rem;
 }
+
 .inStock {
   color: green;
 }
-.noStock {
-  color: red;
-}
+
+.noStock,
 .empty {
   color: red;
 }
+
 .list-group-item {
   border: none;
 }
