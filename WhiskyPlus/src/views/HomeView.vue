@@ -2,6 +2,7 @@
 import HeroImage from "../components/HeroImage.vue";
 import WhiskyOffers from "../components/WhiskyOffers.vue";
 import ContactForm from "../components/ContactForm.vue";
+import FooterPage from "../components/FooterPage.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import ContactForm from "../components/ContactForm.vue";
     </div>
   </div>
   <ContactForm />
+  <FooterPage />
 </template>
 <script>
 export default {

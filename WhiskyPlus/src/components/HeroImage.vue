@@ -1,4 +1,3 @@
-<script></script>
 <template>
   <div id="wrapper-hero">
     <img
@@ -9,6 +8,7 @@
     <div class="centered">
       <h1>WhiskyPlus</h1>
       <h2>Whisky sedan 1967</h2>
+      <button type="button" class="btn btn-light">Läs Mer</button>
     </div>
   </div>
 </template>
@@ -28,3 +28,4 @@
   font-family: "Oswald", sans serifs;
 }
 </style>
+<script></script>

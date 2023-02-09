@@ -11,7 +11,15 @@
       animi maiores unde obcaecati labore quaerat neque! Earum qui quasi
       tempora?
     </p>
-    <img src="../assets/img/AboutImage.jpg" class="img-fluid" alt="About Image">
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+      corrupti sunt hic?
+    </p>
+    <img
+      src="../assets/img/AboutImage.jpg"
+      class="img-fluid"
+      alt="About Image"
+    />
   </div>
 </template>
 <style>
@@ -23,6 +31,6 @@
 }
 
 .about p {
-    margin: 2rem
+  margin: 2rem;
 }
 </style>

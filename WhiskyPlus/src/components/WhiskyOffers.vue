@@ -12,10 +12,10 @@
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">
-          <h5 class="sale" v-show="sale">Rea!</h5>
+          <h5 class="sale" v-show="sale">REA!</h5>
         </li>
         <li class="list-group-item">
-          <h5 class="inStock" v-if="inStock">I lager!</h5>
+          <h5 class="inStock" v-if="inStock">Finns I lager!</h5>
           <h5 class="noStock" v-else>Ej I Lager</h5>
         </li>
         <li class="list-group-item">
@@ -56,7 +56,12 @@ export default {
 }
 
 .sale {
-  color: green;
+  color: #fff;
+  background-color: green;
+  padding: .3rem;
+  margin: auto;
+  width: 6rem;
+  border-radius: .6rem;
 }
 .inStock {
   color: green;
