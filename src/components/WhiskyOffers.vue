@@ -18,7 +18,7 @@
         <li class="list-group-item">
           <h5 :class="{ empty: amount < 10 }">Mängd: {{ whisky.amount }}</h5>
         </li>
-        <a @click="addCart()" class="btn btn-success"
+        <a href="#" @click="addCart()" class="btn btn-success"
           >Lägg I Kundvagn</a
         >
       </ul>
