@@ -1,10 +1,6 @@
 <template>
   <div id="wrapper-hero">
-    <img
-      src="../assets/img/HeroImage.jpg"
-      class="img-fluid"
-      alt="Hero Image"
-    />
+    <img src="../assets/img/HeroImage.jpg" class="img-fluid" alt="Hero Image" />
     <div class="centered">
       <h1>WhiskyPlus</h1>
       <h2>Whisky sedan 1967</h2>

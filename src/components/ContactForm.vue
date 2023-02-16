@@ -16,8 +16,11 @@
     </div>
     <div class="form-check">
       <input v-model="checked" type="checkbox" class="form-check-input" />
-      <label class="form-check-label">I Agree to <a href="#">terms and conditions</a></label>
-    </div><br />
+      <label class="form-check-label"
+        >I Agree to <a href="#">terms and conditions</a></label
+      >
+    </div>
+    <br />
     <button type="submit" @click="onSubmit()" class="btn btn-success">
       Prenumerera
     </button>

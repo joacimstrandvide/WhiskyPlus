@@ -18,7 +18,9 @@
         <li class="list-group-item">
           <h5 :class="{ empty: amount < 10 }">Mängd: {{ whisky.amount }}</h5>
         </li>
-        <a href="#" class="btn btn-success">Lägg I Kundvagn</a>
+        <a @click="addCart()" class="btn btn-success"
+          >Lägg I Kundvagn</a
+        >
       </ul>
     </div>
   </div>
@@ -31,6 +33,11 @@ export default {
       inStock: this.whisky.inStock,
       amount: this.whisky.amount,
     };
+  },
+  methods: {
+    addCart() {
+      alert("Varan Är Tillagd I Kundvagnen");
+    },
   },
   props: {
     whisky: {
