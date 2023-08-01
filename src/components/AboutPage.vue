@@ -15,7 +15,11 @@
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
       corrupti sunt hic?
     </p>
-    <img src="img/AboutImage.jpg" class="img-fluid" alt="About Image" />
+    <img
+      src="@/assets/img/AboutImage.jpg"
+      class="img-fluid"
+      alt="About Image"
+    />
   </div>
 </template>
 <style>
