@@ -4,7 +4,7 @@
         "name": "Jack Daniel's",
         "price": "15",
         "description": "ultricies integer quis auctor elit sed vulputate mi",
-        "image": "/WhiskyPlus/src//assets/img/JackDaniels.jpg",
+        "image": "../src/assets/img/JackDaniels.jpg",
         "sale": false,
         "inStock": true,
         "amount": "15"
@@ -14,7 +14,7 @@
         "name": "The Famous Grouse",
         "price": "20",
         "description": "ultricies integer quis auctor elit sed vulputate mi",
-        "image": "/WhiskyPlus/src//assets/img/FamousGrouse.jpg",
+        "image": "../src/assets/img/FamousGrouse.jpg",
         "sale": true,
         "inStock": true,
         "amount": "8"
@@ -24,7 +24,7 @@
         "name": "Highland Park",
         "price": "14",
         "description": "ultricies integer quis auctor elit sed vulputate mi",
-        "image": "/WhiskyPlus/src//assets/img/HighlandPark.jpg",
+        "image": "../src/assets/img/HighlandPark.jpg",
         "sale": false,
         "inStock": true,
         "amount": "5"
@@ -34,7 +34,7 @@
         "name": "Chivas Regal",
         "price": "25",
         "description": "ultricies integer quis auctor elit sed vulputate mi",
-        "image": "/WhiskyPlus/src//assets/img/ChivasRegal.jpg",
+        "image": "../src/assets/img/ChivasRegal.jpg",
         "sale": false,
         "inStock": false,
         "amount": "0"
@@ -44,7 +44,7 @@
         "name": "Loch Avon",
         "price": "23",
         "description": "ultricies integer quis auctor elit sed vulputate mi",
-        "image": "/WhiskyPlus/src//assets/img/JackDaniels.jpg",
+        "image": "../src/assets/img/JackDaniels.jpg",
         "sale": false,
         "inStock": true,
         "amount": "10"
@@ -54,7 +54,7 @@
         "name": "High Commissioner",
         "price": "21",
         "description": "ultricies integer quis auctor elit sed vulputate mi",
-        "image": "/WhiskyPlus/src//assets/img/FamousGrouse.jpg",
+        "image": "../src/assets/img/FamousGrouse.jpg",
         "sale": false,
         "inStock": true,
         "amount": "30"
@@ -64,7 +64,7 @@
         "name": "Islay Mist",
         "price": "43",
         "description": "ultricies integer quis auctor elit sed vulputate mi",
-        "image": "/WhiskyPlus/src//assets/img/HighlandPark.jpg",
+        "image": "../src/assets/img/HighlandPark.jpg",
         "sale": false,
         "inStock": false,
         "amount": "0"
@@ -74,7 +74,7 @@
         "name": "Ballantine's",
         "price": "26",
         "description": "ultricies integer quis auctor elit sed vulputate mi",
-        "image": "/WhiskyPlus/src/assets/img/FamousGrouse.jpg",
+        "image": "../src/assets/img/FamousGrouse.jpg",
         "sale": false,
         "inStock": true,
         "amount": "21"
