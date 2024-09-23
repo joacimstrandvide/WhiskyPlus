@@ -54,6 +54,13 @@ export default {
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
+
+@media screen and (max-width: 460px) {
+  #offers {
+    align-items: center;
+  }
+}
+
 .title,
 h1 {
   display: flex;

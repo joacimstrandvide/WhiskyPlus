@@ -49,6 +49,7 @@ export default {
 </script>
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
+
 .price {
   font-weight: 700;
   font-size: 1.5rem;
