@@ -74,7 +74,7 @@
         "name": "Ballantine's",
         "price": "26",
         "description": "ultricies integer quis auctor elit sed vulputate mi",
-        "image": "/img/FamousGrouse.jpg",
+        "image": "img/FamousGrouse.jpg",
         "sale": false,
         "inStock": true,
         "amount": "21"
