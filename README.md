@@ -1,5 +1,7 @@
 # WhiskyPlus
 
-En webbsida för ett företag som säljer whisky
+A website for a company selling various brands of whisky
 
-byggd med Vue
+Built with Vue
+
+<img src="screenshot.png" alt="Screenshot" title="Screenshot">
